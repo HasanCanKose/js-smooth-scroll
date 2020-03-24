@@ -2,7 +2,7 @@ function smoothScroll(target, duration) {
   let targett = document.querySelector(target);
   let targetPosition = targett.getBoundingClientRect().top;
   let startPosition = window.pageYOffset;
-  var distance = targetPosition - startPosition;
+  let distance = targetPosition - startPosition;
   let startTime = null;
 
   function animation(currenTime) {
